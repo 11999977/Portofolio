@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+:root{
+  --color-primary: #502db8;
+  --color-secondary: #ACF76A;
+  --color-third: #2D2A38;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* Body */
+
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #2D2A38;
+  height: 100vh;
+}
+
+header{
+  width: 100%;
+  height: 600px;
+  background-image: url(../Images/WHAVE.svg);
+  background-repeat: no-repeat;
+  
+}
+
+header nav{
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  /* border-bottom: 5px solid var(--color-secondary); */
+}
+
+
+.navbar_menu{
+  display: flex;
+  gap: 2.5em;
+  list-style: none;
+  
+}
+
+.navbar_menu a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  font-weight: bolder;
+}
+
+/* INFO DE L'ACCUEIL */
+
+.info_accueil{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+/* metiers de l'accueil */
+
+.metiers{
+  color: white;
+  line-height: 50px;
+}
+
+.metiers h1{
+  color: var(--color-secondary);
+  font-size: 3rem;
+}
+
+.metiers .btn-principal{
+  width: 200px;
+  height: 35px;
+  background-color: var(--color-secondary);
+  outline: none;
+  border:none;
+  border-radius: 50px;
+  /* color: #5B3A52; */
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.btn-principal a{
+  text-decoration: none;
+  color: #2D2A38;
+}
+
+.btn-principal:hover{
+  background-color: #2D2A38;
+  color: white;
+}
+
+
+/* radius */
+
+.forme{
+  border-radius: 44% 56% 31% 69% / 50% 58% 42% 50%;
+  background-color: var(--color-secondary);
+  height: 350px;
+  width: 350px;
+}
+
+/* Image contenue dans la forme ovale */
+.forme img{
+  border-radius: 70px;
+  margin-left: 30px;
+}
+
+/* Partie a propos */
+
+.a_propos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.about-img img{
+  border-top-left-radius: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 100px;
+}
+.txt-about{
+  max-width: 600px;
+}
+
+.txt-about h1{
+  padding-bottom:20px;
+  color: var(--color-secondary);
+}
+.txt-about .about{
+  padding-bottom:20px;
+  line-height: 25px;
+  color: white;
+}
+
+.btn-apropos{
+  width: 200px;
+  height: 35px;
+  background-color: var(--color-secondary);
+  outline: none;
+  border:none;
+  border-radius: 50px;
+  /* color: #5B3A52; */
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.btn-apropos a{
+  text-decoration: none;
+  color: #2D2A38;
+}
+
+.btn-apropos:hover{
+    background-color: var(--color-primary);
+    color: white;
+}
+
+/* Skills */
+
+.skills{
+  padding-top: 70px;
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+.competences_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  color: white;
+}
+
+.skills h1{
+  padding: 60px;
+}
+
+/* Mes projets */
+
+.MesProjets{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  gap: 90px;
+  
+}
+
+.MesProjets h1{
+  color: var(--color-secondary);
+}
+
+.projets-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 80%;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.projet{
+  height: 150px;
+  width: 500px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 15px;
+  position: relative;
+}
+
+.info-projet{
+  position: absolute;
+  bottom: 0;
+  background-color: var(--color-primary);
+  height: 30px;
+  width: 100%;
+  color: white;
+}
+
+/* pied de page */
+
+footer{
+  background-color: var(--color-primary);
+  height: 100px;
+  text-align: center;
+}
+
+footer h5{
+  font-size: 0.8rem;
+  display: block;
+  color: white;
+  font-weight: 300;
+  
+}
+
+.footer-icones{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+
+
+
