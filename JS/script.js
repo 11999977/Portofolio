@@ -1,17 +1,31 @@
-// document.getElementById('btnDownload').addEventListener('click', function() {
-//   // Code pour télécharger le PDF
-// });
+document.querySelector('.projet1').addEventListener('click', function(){
 
+  let url = 'https://11999977.github.io/Reproduction_W3C/'
 
-// document.getElementById('btnDownload').addEventListener('click', function() {
-//     // Créer un lien temporaire vers le fichier PDF
-//     let link = document.createElement('a');
-//     link.href = '../src/CV-Aron.pdf';
-//     link.download = 'CV-Aron.pdf';
-//     document.body.appendChild(link);
-//     // Simuler un clic sur le lien pour déclencher le téléchargement
-//     link.click();
-//     // Nettoyer après le téléchargement
-//     document.body.removeChild(link);
-// });
+  window.open(url);
 
+});
+
+document.querySelector('.projet2').addEventListener('click', function(){
+
+  let cheminImage = '../Images/Site_Streaming_2\ \(2\).png'
+
+  window.open(cheminImage);
+
+});
+
+document.querySelector('.projet3').addEventListener('click', function(){
+
+  let url = 'https://11999977.github.io/ToDoList/'
+
+  window.open(url);
+
+});
+
+document.querySelector('.projet4').addEventListener('click', function(){
+
+  let url = 'https://11999977.github.io/METEO/'
+
+  window.open(url);
+
+});
