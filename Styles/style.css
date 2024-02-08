@@ -195,7 +195,9 @@ header nav{
   padding-top: 80px;
   padding-bottom: 80px;
   display: flex;
-  gap: 90px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   
 }
 
@@ -207,19 +209,86 @@ header nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 80%;
-  flex-wrap: wrap;
-  gap: 20px;
+  height: 550px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  grid-template-rows: 2;
+  row-gap: 20px;
+  column-gap: 30px;
   
 }
 
-.projet{
-  height: 150px;
-  width: 500px;
-  height: 250px;
+.projet1{
+  height: 100%;
+  width: 100%;
   background-color: #fff;
   border-radius: 15px;
   position: relative;
+  background-image: url(../Images/w3C.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.4s ease-in-out;
+  transform: scale(1);
+  will-change: transform;
+}
+
+.projet1:hover{
+  transform: scale(1.050);
+}
+.projet2{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: url(../Images/Site_Streaming_2\ \(2\).png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.4s ease-in-out;
+  transform: scale(1);
+  will-change: transform;
+}
+
+.projet2:hover{
+  transform: scale(1.050);
+}
+.projet3{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  position: relative;
+  background-image: url(../Images/TODO.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.4s ease-in-out;
+  transform: scale(1);
+  will-change: transform;
+}
+
+.projet3:hover{
+  transform: scale(1.050);
+}
+.projet4{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  position: relative;
+  background-image: url(../Images/Meteo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.4s ease-in-out;
+  transform: scale(1);
+  will-change: transform;
+}
+
+.projet4:hover{
+  transform: scale(1.050);
 }
 
 .info-projet{
@@ -229,6 +298,7 @@ header nav{
   height: 30px;
   width: 100%;
   color: white;
+  
 }
 
 /* pied de page */
