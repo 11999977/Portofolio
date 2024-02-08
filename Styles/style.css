@@ -98,7 +98,7 @@ header nav{
 }
 
 .btn-principal:hover{
-  background-color: #2D2A38;
+  background-color: #FFF;
   color: white;
 }
 
@@ -166,7 +166,7 @@ header nav{
 }
 
 .btn-apropos:hover{
-    background-color: var(--color-primary);
+    background-color: #fff;
     color: white;
 }
 
